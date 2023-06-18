@@ -1,4 +1,4 @@
-GMOTE2 <-function(X,target,dupSize=1,G=5,tail_alpha=0.05,alpha=0.5){
+GOMCD_param <-function(X,target,dupSize=1,G=5,tail_alpha=0.05,alpha=0.5){
   
   # Default Setting
   ncD = ncol(X)
