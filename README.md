@@ -12,4 +12,6 @@ GOMCD_parameter.R file calculates the sampling weight for class overlap.
 First, estimates the distribution of the minority class by GMM with MCD.
 Then, calculates the degree of class overlap to calculate the sampling weight for each component of the GMM.
 
-GOMCD_oversampling.R file generates artificial instances of the minority class.
+GOMCD_oversampling.R file generates artificial instances of the minority class by GMM parameters and sampling weights.
+
+These files need the R packages "mclust", "robustbase"
