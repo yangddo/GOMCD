@@ -14,4 +14,4 @@ Then, calculates the degree of class overlap to calculate the sampling weight fo
 
 GOMCD_oversampling.R file generates artificial instances of the minority class by GMM parameters and sampling weights.
 
-These files need the R packages "mclust", "robustbase"
+These files need the R packages "mclust", "mvtnorm", and "robustbase".
